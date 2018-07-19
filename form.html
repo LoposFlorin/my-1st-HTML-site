@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sign Up</title>
+  </head>
+  <body>
+    <h3>Sign Up form:</h3>
+    <p>Register below to get started</p>
+    <form method="post">
+      First Name:<br>
+      <input type="text" name="FirstName" required><br>
+      Last Name:<br>
+      <input type="text" name="LastName" required><br>
+      Email:<br>
+      <input type="email" name="email" required><br>
+      Phone Number:<br>
+      <input type="number" name="phone"><br>
+      Password:<br>
+      <input type="password" name="pass" min="6" required><br>
+      <br>
+      Region:<br>
+      <select name="Region">
+        <option value="Asia">Asia</option>
+        <option value="Australia">Australia</option>
+        <option value="Africa">Africa</option>
+        <option value="Europe">Europe</option>
+        <option value="Americas">Americas</option>
+      </select><br>
+      <br>
+      Gender:<br>
+        <input type="radio" name="gender" value="male">Male
+        <input type="radio" name="gender" value="female">Female
+        <input type="radio" name="gender" value="other">Other <br>
+        <br>
+        <input type="submit" name="Submit">
+        <input type="reset" name="reset"><br>
+        <br>
+        <p><a href="index.html">Back</a> to main site.</p>
+    </form>
+  </body>
+</html>
